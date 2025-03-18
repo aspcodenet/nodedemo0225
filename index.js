@@ -8,9 +8,9 @@ app.get('/',(req,res)=>{
 })
 
 const players = [
-    {id:1,jersey:21,name:"Foppa"},
-    {id:2,jersey:2,name:"Anders Eldebrink"},
-    {id:3,jersey:13,name:"Sudden"}
+    {id:1,jersey:21,name:"Foppa",teams:["Colorado","Modo"]},
+    {id:2,jersey:2,name:"Anders Eldebrink",teams:[]},
+    {id:3,jersey:13,name:"Sudden",teams:["Toronto"]}
 ]
  
 
